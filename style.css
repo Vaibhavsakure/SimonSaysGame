@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+/* Smooth transition for color change */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background: rgb(98, 98, 27);
+}
+
+.red {
+    background: rgb(236, 50, 50);
+}
+
+.purple {
+    background: rgb(216, 47, 216);
+}
+
+.green {
+    background: rgb(65, 212, 65);
+}
+
+.flash {
+    background: white;
+}
+
+.userflash {
+    background: green; /* Changed to yellow for better visibility */
+ /* Optional: Add scale effect for extra flash effect */
+}
